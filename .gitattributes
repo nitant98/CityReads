@@ -1,0 +1,6 @@
+# Force Python to be the main language
+*.py linguist-language=Python
+
+# Ignore specific folders or files if they cause issues
+/vendor/** linguist-vendored
+/docs/** linguist-documentation
